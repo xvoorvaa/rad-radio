@@ -7,8 +7,8 @@
   const muted = ref(true);
 
   const SOURCES = [
-    "https://livepeercdn.studio/hls/8b3bhzxtw10cedhe/index.m3u8", // PRIMARY
-    "https://livepeercdn.studio/hls/087br35zj5ubgy9l/index.m3u8", // BACKUP
+    "https://livepeercdn.studio/hls/9c73muynt36mmi8j/index.m3u8", // PRIMARY
+    "https://livepeercdn.studio/hls/52b984114n3qoxs6/index.m3u8", // BACKUP
   ];
   const src = computed(() => SOURCES[srcIndex.value]);
   const srcIndex = ref(0);
